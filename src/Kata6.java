@@ -16,13 +16,13 @@ public class Kata6 {
 
         while (hora != -1) {
             if (hora < 0 || hora > 23) {
-                System.out.println("Hora inválida");
+                System.out.println("Hora invalida");
             } else {
-                System.out.print("Ingresa el número de clientes en esa hora: ");
+                System.out.print("Ingresa el numero de clientes en esa hora: ");
                 clientes = teclado.nextInt();
 
                 while (clientes < 0) {
-                    System.out.println("El número de clientes no puede ser negativo.");
+                    System.out.println("El numero de clientes no puede ser negativo.");
                     System.out.print("Ingresa nuevamente el número de clientes: ");
                     clientes = teclado.nextInt();
                 }
